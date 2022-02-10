@@ -9,9 +9,9 @@ const Navbar = () => {
     return (
         <div className="nav-container">
             <div className="logo-container">
-                <Avatar src={logo} size={60}/>
+                <Avatar src={logo} size={65}/>
                 <Typography.Title level={2} className="logo">
-                    <Link to="/" className="app-title">CryptoSpace</Link>
+                    <Link to="/">CryptoSpace</Link>
                 </Typography.Title>
             </div>
             <Menu theme="dark">
